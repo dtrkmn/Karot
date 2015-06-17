@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logback">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:id="@+id/lyout_log"
+    android:background="@drawable/layout"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="222dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp">
+    <TextView
+        android:id="@+id/username_info"
+        android:text="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fffdfdff"
+
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/username_info"
+        android:layout_marginTop="10dp"
+        android:background="#fff8f1ff"/>
+    <TextView
+        android:id="@+id/password_info"
+        android:text="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/username"
+        android:textColor="#fffdfdff"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_info"
+        android:background="#fffdfdff"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+
+
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ozelbutton"
+        android:text="@string/login"
+        android:textSize="15dp"
+        android:textColor="#fff8f9ff"
+        android:textStyle="bold"
+
+        />
+
+
+
+</RelativeLayout>
+
+        <Button
+            android:id="@+id/login_as_member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="179dp"
+            android:background="@drawable/ozelbutton2"
+            android:text="@string/button2"
+            android:textColor="#fff8f9ff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_below="@+id/lyout_log"
+            android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

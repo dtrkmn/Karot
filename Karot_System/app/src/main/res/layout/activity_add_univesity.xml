@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/logback"
+    tools:context="com.example.casper.karot_system.AddUnivesity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_marginTop="241dp"
+    android:id="@+id/lyt"
+    android:background="@drawable/layout"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp">
+    <TextView
+        android:id="@+id/university"
+        android:text="@string/university_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fffdfdff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        />
+    <AutoCompleteTextView
+        android:id="@+id/university_txt"
+        android:layout_below="@+id/university"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ff6291af"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:id="@+id/mngr_name"
+        android:layout_below="@+id/university_txt"
+        android:text="@string/manager_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fffdfdff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/mngr"
+        android:layout_below="@+id/mngr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6291af"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/mpass"
+       android:text="@string/manager_pas"
+       android:layout_below="@+id/mngr"
+       android:layout_marginTop="10dp"
+       android:textColor="#fffdfdff"
+       android:textStyle="bold"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mpass_text"
+        android:layout_below="@+id/mpass"
+        android:background="#ff6291af"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+</RelativeLayout>
+    <Button
+        android:text="@string/add"
+        android:id="@+id/add_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="102dp"
+        android:background="@drawable/layout"
+        android:textColor="#fffdfdff"
+
+        android:layout_below="@+id/lyt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</RelativeLayout>

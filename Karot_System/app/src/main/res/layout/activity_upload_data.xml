@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".download"
+    android:background="@drawable/homepage">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffbac4bd"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lyout">
+
+
+        <TextView
+            android:text="Lab Analayzes Data"
+            android:textColor="#ff860014"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:id="@+id/baslik"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/lyout"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ozelbutton"
+        android:layout_centerHorizontal="true"
+        android:text="XRF"
+        android:textSize="20dp"
+        android:textColor="#f7343125"
+        android:textStyle="bold"
+        android:id="@+id/xrf"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/xrf"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton2"
+        android:text="MSCL"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffefbc4"
+        android:textStyle="bold"
+        android:id="@+id/mscl"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mscl"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton"
+        android:text="WATER ANALYSIS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#f7343125"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/water"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/water"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton2"
+        android:text="MIKROPELEONTOLOGY"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffefbc4"
+        android:id="@+id/mikro"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mikro"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton"
+        android:textSize="20dp"
+        android:text="IZOTOP"
+        android:textColor="#f7343125"
+        android:textStyle="bold"
+        android:id="@+id/izotop"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/izotop"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton2"
+        android:textSize="20dp"
+        android:text="TIC/TOC"
+        android:textColor="#fffefbc4"
+        android:textStyle="bold"
+        android:id="@+id/tictoc"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tictoc"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton"
+        android:textSize="20dp"
+        android:text="AGING"
+        android:textColor="#f7343125"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/aging"
+
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/aging"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ozelbutton2"
+        android:textSize="20dp"
+        android:text="LITOLOGY"
+        android:textColor="#fffefbc4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/litology"
+
+        />
+
+
+
+</RelativeLayout>

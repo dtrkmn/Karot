@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LOGIN</string>
+    <string name="username"><u>Username</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="title_activity_admin_page">Admin Page</string>
+    <string name="Home_Page">Home Page</string>
+    <string name="edit">Edit Profile</string>
+    <string name="Add_University">Add University</string>
+    <string name="Add_Lake">Add Lake</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_add_univesity">Add University</string>
+    <string name="university_name">University Name</string>
+    <string name="manager_name">Manager Name</string>
+    <string name="add">Add Registration</string>
+    <string name="title_activity_add_lake">Add Lake</string>
+    <string name="lake_name">Lake Name</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="button2">Enter without Login</string>
+    <string name="manager_pas">Manager Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_manager_page">ManagerPage</string>
+    <string name="title_activity_lake__map">Map</string>
+    <string name="title_activity_select_university">Select_university</string>
+    <string name="title_activity_map">Map</string>
+    <string name="show">Show</string>
+    <string name="title_activity_add_core">AddCore</string>
+    <string name="Core_name"><u>Core Name</u></string>
+    <string name="Core_coordinate"><u>Core Coordinate</u></string>
+    <string name="Core_depth"><u>Core Depth</u></string>
+    <string name="Core_type"><u>Core Type</u></string>
+    <string name="Comments"><u>Comment</u></string>
+    <string name="Date"><u>Date</u></string>
+    <string name="people"><u>Workers</u></string>
+    <string name="Submit">Submit</string>
+    <string name="title_activity_view_cores">ViewCores</string>
+    <string name="title_activity_upload_data">UploadData</string>
+
+</resources>

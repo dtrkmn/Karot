@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>Water</item>
+        <item>Seismic</item>
+        <item>Short Core</item>
+        <item>Long Core</item>
+        <item>Base Core</item>
+        <item>Others</item>
+    </string-array>
+</resources>
